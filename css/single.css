@@ -1,0 +1,188 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:15px;
+	font-family:roboto,arial;
+	color:#333;
+}
+a{
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover{
+	color:red;
+}
+ul{
+	list-style-type:none;
+}
+body{
+	background-image:url("img/background.gif");
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+video{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+/*** WEBSITE **/
+#website{
+	width:1000px;
+	margin:auto;
+	height:800px;
+	background-color:white;
+}
+/** TOP **/
+#top{
+	width:auto;
+	margin:auto;
+	height:40px;
+	margin:5px 10px 10px 5px;
+	background-image:url("img/top.png");
+}
+.top-left{
+	width:30%;
+	float:left;
+}
+#logo{
+	width:100px;
+}
+#search{
+	border:0px;
+	background-color:lightblue;
+	width:200px;
+	height:25px;
+	margin:7px 5px 5px 5px;
+	position:relative;
+	color:white;
+}
+.top-left img{
+	position:absolute;
+	right:0;
+}
+.top-right{
+	float:right;
+}
+.top-right li{
+    float:left;
+    margin:10px 10px 0 10px;
+}
+.top-right li a{
+	color:white;
+	transition:1s ease all;
+}
+.top-right li a:hover{
+	transition:1s ease all;
+	border-bottom:2px solid lightblue;
+	color:lightblue;
+}
+/** HEADER **/
+#header{
+	margin:5px 10px 10px 5px;
+	box-shadow:1px 1px 1px 1px;
+}
+/** LOGO**/
+/** MENU **/
+.menu{
+	float:right;
+	width:70%;
+	margin-top:10px;
+}
+.menu ul li{
+	float:right;
+	height:30px;
+	background-color:lightblue;
+	margin-right:30px;
+	box-shadow:1px 1px 1px 1px;
+
+}
+.menu ul li a{
+	float:left;
+	width:90px;
+	color:white;
+	line-height:30px;
+	text-align:center;
+	transition:1s ease all;
+}
+.menu ul li a:hover{
+	transition:1s ease all;
+	background-color:red;
+
+}
+#content{
+	width:700px;
+	overflow:hidden;
+	float:left;
+	margin:5px 10px 10px 5px;
+	height:auto;
+}
+.main-content{
+	margin:5px 10px 10px 5px;
+	float:left;
+	width:700px;
+}
+.main-content-title{
+	height:40px;
+	line-height:40px;
+	background-image:url("img/top.png");
+	color:white;
+}
+.content-new{
+	height:auto;
+	float:left;
+	width:700px;
+}
+#silebar{
+	float:right;
+	margin:5px 10px 10px 5px;
+	width:270px;
+}
+.silebar-title{
+	height:40px;
+	line-height:40px;
+	background-image:url("img/top.png");
+	color:white;
+}
+.silebar-content{
+	height:400px;
+	width:auto;
+	float:left;
+}
+.sile-content li{
+	float:left;
+}
+/** BOTTOM **/
+#bottom{
+	float:left;
+	background-image:url("img/top.png");
+	width:1000px;
+	height:80px;
+	margin:5px 10px 10px 5px;
+	color:white;
+}
+.bottom-title{
+	color:white;
+	font-size:25px;
+	font-weight:bold;
+}
+.bottom-content{
+	height:30px;
+}
+.bottom-icon{
+	float:left;
+}
+.bottom-icon li{
+	float:left;
+	margin:0 0 0 5px;
+	margin-top:0;
+}
+
+/**float:left;
+	width:700px;
+	height:540px;
+	margin:5px 10px 10px 5px;
+	box-shadow:0 2px 2px 0;**/
